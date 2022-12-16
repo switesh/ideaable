@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply text-slate-600;
+		/* font-family: 'Manrope', sans-serif; */
+		font-family: 'Poppins', sans-serif;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-extrabold;
+	}
+	h1 {
+		@apply text-4xl;
+	}
+	h2 {
+		@apply text-3xl;
+	}
+	h3 {
+		@apply text-2xl;
+	}
+	h4 {
+		@apply text-xl;
+	}
+	h5 {
+		@apply text-lg;
+	}
+	h6 {
+		@apply text-base;
+	}
+	p {
+		@apply text-base;
+	}
+	label {
+		@apply text-sm;
+	}
+	a {
+		@apply underline underline-offset-2;
+	}
+	button,
+	input {
+		@apply rounded focus:outline-none focus:ring focus:ring-slate-500 focus:ring-opacity-50 focus:shadow;
+	}
+	input {
+		@apply px-3 py-2 rounded border border-slate-400 hover:focus:bg-white;
+	}
+}
+
+@layer components {
+	.btn-base {
+		@apply px-3 py-2 bg-slate-200;
+	}
+}
+
+@layer utilities {
+	.input-wrapper {
+		@apply flex flex-col gap-2;
+	}
+	input.rounded {
+		@apply border-0 rounded-full bg-slate-100;
+	}
+	a.btn {
+		@apply no-underline;
+	}
+}

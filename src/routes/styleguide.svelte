@@ -18,7 +18,7 @@ let title = 'Styleguide'
   <h6>Heading 6</h6>
   <p>Paragraph</p>
   <small>Small</small>
-  <button class="btn-base">Button</button>
+  <button class="btn base">Button</button>
   <div class="input-wrapper">
     <label for="abc">Input label</label>
     <input type="text" name="abc">

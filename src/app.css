@@ -53,19 +53,25 @@
 }
 
 @layer components {
-	.btn-base {
-		@apply px-3 py-2 bg-slate-200;
+	a.btn {
+		@apply no-underline;
 	}
-}
-
-@layer utilities {
+	.btn.base {
+		@apply px-3 py-2 rounded bg-slate-200;
+	}
+	.btn.primary {
+		@apply px-4 text-white font-semibold bg-indigo-500;
+	}
 	.input-wrapper {
 		@apply flex flex-col gap-2;
 	}
 	input.rounded {
 		@apply border-0 rounded-full bg-slate-100;
 	}
-	a.btn {
-		@apply no-underline;
+	.category-label {
+		@apply uppercase text-sm text-slate-600 font-semibold tracking-wide;
 	}
+}
+
+@layer utilities {
 }

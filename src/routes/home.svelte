@@ -31,7 +31,7 @@ let title = 'Home'
   </div>
 </section>
 
-<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 w-full max-w-screen-md">
+<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 w-full max-w-screen-md h-full overflow-auto">
   <div class="flex justify-between">
     <h1>Improve UX on old products</h1>
     <div class="flex gap-x-4">
@@ -41,12 +41,14 @@ let title = 'Home'
   </div>
   <hr class="my-4 opacity-50">
   <p>Description</p>
-  <h2>What</h2>
+  <h2 class="mt-8 mb-2">What</h2>
   <p>Business...</p>
-  <h2>Who</h2>
+  <h2 class="mt-8 mb-2">Who</h2>
   <p>Customers...</p>
-  <h2>How</h2>
+  <h2 class="mt-8 mb-2">How</h2>
   <p>Revenue models blurb...</p>
+  <hr class="my-8 opacity-50">
+  <p>And then we can add more about Financing, Costing, Distribution channels etc...</p>
 </dialog>
 
 <Footer/>

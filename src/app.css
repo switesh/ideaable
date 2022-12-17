@@ -64,7 +64,7 @@
 		@apply px-3 py-2 rounded bg-slate-200;
 	}
 	.btn.primary {
-		@apply px-4 text-white font-semibold bg-indigo-500;
+		@apply px-4 text-white font-semibold bg-violet-500;
 	}
 	.input-wrapper {
 		@apply flex flex-col gap-2;

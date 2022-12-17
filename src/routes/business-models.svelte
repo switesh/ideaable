@@ -41,4 +41,3 @@ let title = 'Business models'
 </section>
 
 <Footer/>
-

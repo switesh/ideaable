@@ -5,17 +5,35 @@
 <script>
 import Appbar from '$lib/components/Appbar.svelte'
 import Footer from '$lib/components/Footer.svelte'
+import businessIdeas from '$lib/data/business-ideas.json';
 let title = 'Business ideas'
 </script>
 
 <Appbar/>
 
-<section class="p-8 px-16">
-<h1>Business ideas</h1>
-
- <p>cards/titles for business ideas</p>
-
+<section class=" ">
+  <div class="py-4 px-16 flex gap-4 justify-between items-center">
+    <h1>Business ideas</h1>
+    <div class="flex gap-x-4">
+      <input type="search" placeholder="Search business ideas">
+      <button class="btn base">Suggest one for me</button>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">
+    {#each businessIdeas as { title, description }, index}
+      <article aria-posinset={index + 1} aria-setsize={businessIdeas.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4">
+        <div class="flex justify-between">
+          <h2>{title}</h2>
+          <div class="flex gap-x-4">
+            <button class="btn p-1">+</button>
+            <button class="btn p-1">♡</button>
+          </div>
+        </div>
+        <p>{description}</p>
+      </article>
+    {/each}
+  </div>
+  
 </section>
 
 <Footer/>
-

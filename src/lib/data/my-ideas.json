@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Ideaables",
+		"description": "A platform for Entrepreneurs to ideate on business and revenue models",
+		"url": "",
+		"revenueModel": "Subscription, Merchandise - card deck and board game, Addons (Atlassian Jira, Culture Amp), Ads"
+	},
+	{
 		"title": "Gift a share",
 		"description": "A platform for Guardians (parents, godparents, uncles, aunts) to gift shares to Children (sons, daughters, nephews, nieces, godchildren)",
 		"url": "",

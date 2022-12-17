@@ -66,10 +66,6 @@ let title = 'Pricing'
           <CheckmarkBullet/>
           Create your own ideaables
         </li>
-        <li class="inline-flex items-start">
-          <CheckmarkBullet/>
-          Save and monitor your ideaables
-        </li>
         <li class="inline-flex">
           <CheckmarkBullet/>
           Add your own custom fields (like costing, financing, business issues etc)

@@ -76,6 +76,10 @@ let title = 'Pricing'
         </li>
         <li class="inline-flex items-center">
           <CheckmarkBullet/>
+          Collaborate, share, and export ideaables
+        </li>
+        <li class="inline-flex items-center">
+          <CheckmarkBullet/>
           More features to come...
         </li>
       </ul>

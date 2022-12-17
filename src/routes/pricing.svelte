@@ -29,15 +29,15 @@ let title = 'Pricing'
     </p>
     <div class="mt-8">
       <ul class="grid grid-cols-1 gap-4">
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Business ideas
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Business models
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Case studies
         </li>
@@ -62,23 +62,23 @@ let title = 'Pricing'
     </p>
     <div class="mt-8">
       <ul class="grid grid-cols-1 gap-4">
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Create your own ideaables
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Save and monitor your ideaables
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex">
           <CheckmarkBullet/>
-          Turn ideaables into actions
+          Add your own custom fields (like costing, financing, business issues etc)
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           Collaborate, share, and export ideaables
         </li>
-        <li class="inline-flex items-center">
+        <li class="inline-flex items-start">
           <CheckmarkBullet/>
           More features to come...
         </li>

@@ -26,7 +26,7 @@ let title = 'Business models'
     {#each businessModels as { title, description, image, caseStudy, examples }, index}
       <article aria-posinset={index + 1} aria-setsize={businessModels.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4">
         <div class="flex justify-between">
-          <h2>{title}</h2>
+          <h2 class="font-semibold">{title}</h2>
           <div class="flex gap-x-4">
             <button class="btn p-1">+</button>
             <button class="btn p-1">♡</button>

@@ -1,27 +1,26 @@
 [
 	{
-		"title": "Improve UX on old products",
-		"description": "Find a successful product that has terrible UX; improve the UX and re-sell to frustrated customers",
-		"url": ""
-	},
-	{
-		"title": "Small but better",
-		"description": "Find a large business and do a small part better",
-		"url": ""
-	},
-	{
-		"title": "Counter intuitive ideas",
-		"description": "Focus on solving problems through psychology (wit, advertising, power of influence) instead of technology or capital",
-		"url": ""
-	},
-	{
-		"title": "Whitelable and re-sell",
-		"description": "Resell a whitelabelled product in a proven market",
-		"url": ""
-	},
-	{
 		"title": "Gift a share",
 		"description": "A platform for Guardians (parents, godparents, uncles, aunts) to gift shares to Children (sons, daughters, nephews, nieces, godchildren)",
-		"url": ""
+		"url": "",
+		"revenueModel": "Spread on brokerage fees, Ancillary products, Ads"
+	},
+	{
+		"title": "Annual report insights",
+		"description": "AI generated insights from annual reports of listed companies",
+		"url": "",
+		"revenueModel": "Subscription, Affiliates"
+	},
+	{
+		"title": "Burgers on stock exchange",
+		"description": "Buy and sell burgers on an exchange like stocks and futures",
+		"url": "",
+		"revenueModel": "Listing fees, Ads"
+	},
+	{
+		"title": "Tennis hitting partners",
+		"description": "Connect tennis hitting partners locally",
+		"url": "",
+		"revenueModel": "Ads from clubs and local tennis shops"
 	}
 ]

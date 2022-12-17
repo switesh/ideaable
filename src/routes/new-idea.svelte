@@ -11,7 +11,7 @@ let title = 'New idea'
 
 <!-- <Appbar title="{title}"/> -->
 
-<div class="px-4 py-2 md:px-8 md:py-4 flex justify-between items-center border-b border-slate-200">
+<div class="px-4 py-2 md:px-8 md:py-4 flex justify-between items-center bg-slate-50 border-b border-slate-200 sticky top-0">
   <h1 class="text-lg font-semibold">{title}</h1>
   <section>
     <button on:click={()=>goto('home')}><X/></button>

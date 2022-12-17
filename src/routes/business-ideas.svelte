@@ -20,16 +20,13 @@ let title = 'Business ideas'
     </div>
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">
-    {#each businessIdeas as { title, description }, index}
+    {#each businessIdeas as { title, description, examples }, index}
       <article aria-posinset={index + 1} aria-setsize={businessIdeas.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4">
         <div class="flex justify-between">
-          <h2>{title}</h2>
-          <div class="flex gap-x-4">
-            <button class="btn p-1">+</button>
-            <button class="btn p-1">♡</button>
-          </div>
+          <h2 class="font-semibold">{title}</h2>
         </div>
         <p>{description}</p>
+        <p class="text-sm text-slate-400 mt-auto">{examples}</p>
       </article>
     {/each}
   </div>

@@ -54,6 +54,10 @@
 	textarea {
 		@apply resize-none w-full;
 	}
+	dialog {
+		@apply m-0 p-0 max-w-full max-h-full;
+		inset-inline-start: auto;
+	}
 }
 
 @layer components {

@@ -15,7 +15,7 @@
   </nav>
   <div class="flex gap-x-8 items-center">
     <div class="flex gap-x-2 items-center">
-      <div class="h-8 w-8 bg-slate-200 rounded-full flex-shrink-0"></div>
+      <div class="h-8 w-8 bg-violet-200 rounded-full flex-shrink-0"></div>
       <p>Allison</p>
     </div>
     <a href="/" class="btn">Sign out</a>

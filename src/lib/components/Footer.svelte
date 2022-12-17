@@ -12,7 +12,7 @@
               <a href="business-models" class="btn">Business models</a>
             </li>
             <li>
-              <a href="product-market-fit" class="btn">Product-market fit</a>
+              <a href="" class="btn">Product-market fit</a>
             </li>
           </ol>
       </nav>
@@ -22,12 +22,12 @@
       <nav>
           <ol class="space-y-4 items-center">
             <li>
+              <a href="resources" class="btn">Resources</a>
+            </li>
+            <li>
               <a href="shop" class="btn">Shop</a>
             </li>
             <li>
-              <a href="resources" class="btn">Resources</a>
-            </li>
-              <li>
               <a href="case-studies" class="btn">Case studies</a>
             </li>
           </ol>
@@ -41,10 +41,10 @@
               <a href="about-us" class="btn">About us</a>
             </li>
             <li>
-              <a href="faq" class="btn">FAQ</a>
+              <a href="" class="btn">FAQ</a>
             </li>
             <li>
-              <a href="contact-us" class="btn">Contact us</a>
+              <a href="" class="btn">Contact us</a>
             </li>
             <li>
               <a href="pricing" class="btn">Pricing</a>
@@ -57,13 +57,13 @@
       <nav>
           <ol class="space-y-4 items-center">
             <li>
-              <a href="privacy-policy" class="btn">Privacy policy</a>
+              <a href="" class="btn">Privacy policy</a>
             </li>
             <li>
-              <a href="terms-of-service" class="btn">Terms of service</a>
+              <a href="" class="btn">Terms of service</a>
             </li>
-            <li><a href="roadmap">Product roadmap</a></li>
-            <li><a href="styleguide">Styleguide</a></li>
+            <li><a href="roadmap" class="opacity-50">Product roadmap</a></li>
+            <li><a href="styleguide" class="opacity-50">Styleguide</a></li>
           </ol>
       </nav>
     </div>

@@ -3,7 +3,7 @@
   <nav>
     <ol class="flex gap-x-8 items-center">
       <li>
-        <a href="my-ideas" class="btn">My ideas</a>
+        <a href="home" class="btn">My ideaables</a>
       </li>
       <li>
         <a href="business-ideas" class="btn">Business ideas</a>

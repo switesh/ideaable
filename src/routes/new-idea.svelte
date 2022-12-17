@@ -6,7 +6,7 @@
 import { goto } from '$app/navigation';
 // import Appbar from '$lib/components/Appbar-close.svelte'
 import X from '$lib/components/icons/x.svelte'
-let title = 'New idea'
+let title = 'New ideaable'
 </script>
 
 <!-- <Appbar title="{title}"/> -->

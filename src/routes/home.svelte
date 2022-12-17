@@ -14,9 +14,9 @@ let title = 'Home'
 
 <section class="">
   <div class="py-4 px-16 flex gap-4 justify-between items-center">
-    <h1>My ideas</h1>
+    <h1>My ideaables</h1>
     <div class="flex gap-x-4">
-      <a href="new-idea" class="btn base primary">+ New idea</a>
+      <a href="new-idea" class="btn base primary">+ New ideaable</a>
     </div>
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">

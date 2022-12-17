@@ -72,7 +72,7 @@ let title = 'Pricing'
         </li>
         <li class="inline-flex">
           <CheckmarkBullet/>
-          Add your own custom fields (like costing, financing, business issues etc)
+          Add your own custom fields (like costing, financing, suppliers, distribution channels, partners etc)
         </li>
         <li class="inline-flex items-start">
           <CheckmarkBullet/>

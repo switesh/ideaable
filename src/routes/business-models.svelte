@@ -24,15 +24,16 @@ let title = 'Business models'
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">
     {#each businessModels as { title, description, image, caseStudy, examples }, index}
-      <article aria-posinset={index + 1} aria-setsize={businessModels.length} class="p-8 bg-white shadow-sm rounded">
-        <h2 class="mb-4">{title}</h2>
+      <article aria-posinset={index + 1} aria-setsize={businessModels.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4">
+        <div class="flex justify-between">
+          <h2>{title}</h2>
+          <div class="flex gap-x-4">
+            <button class="btn p-1">+</button>
+            <button class="btn p-1">♡</button>
+          </div>
+        </div>
         <p>{description}</p>
-        <p class="text-xs text-slate-400">{examples}</p>
-        <hr class="opacity-75 my-4">
-        <footer class="flex gap-x-4 justify-between">
-          <button class="btn">+</button>
-          <button class="btn">♡</button>
-        </footer>
+        <p class="text-sm text-slate-400 mt-auto">{examples}</p>
       </article>
     {/each}
   </div>

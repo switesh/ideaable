@@ -4,28 +4,28 @@
 		"description": "Sell the base product for free and make money on addons",
 		"image": "",
 		"caseStudy": "case-studies/razor-and-blade",
-		"examples": ""
+		"examples": "Gillette, Amazon kindle"
 	},
 	{
 		"title": "Subscription",
 		"description": "Charge a recurring fee on a periodic basis",
 		"image": "",
 		"caseStudy": "case-studies/",
-		"examples": ""
+		"examples": "Netflix, Spotify, Salesforce"
 	},
 	{
 		"title": "Loyalty",
 		"description": "Offer incentive-based programs",
 		"image": "",
 		"caseStudy": "case-studies/",
-		"examples": ""
+		"examples": "Flybuys, Starbucks rewards"
 	},
 	{
 		"title": "Freemium",
 		"description": "Offer a limited product for free, and charge for the rest of it",
 		"image": "",
 		"caseStudy": "case-studies/freemium",
-		"examples": ""
+		"examples": "Evernote, Dropbox, Pandora, Linkedin"
 	},
 	{
 		"title": "Micro transactions",
@@ -39,20 +39,20 @@
 		"description": "The customer pays on the basis of what he or she effectively consumes",
 		"image": "",
 		"caseStudy": "case-studies/",
-		"examples": ""
+		"examples": "Rentals, Services"
 	},
 	{
 		"title": "Cross sell, Up sell",
 		"description": "Generate revenue from additional products and offerings",
 		"image": "",
 		"caseStudy": "case-studies/",
-		"examples": ""
+		"examples": "McDonald's"
 	},
 	{
 		"title": "Two sided market",
 		"description": "A marketplace for buyers and sellers",
 		"image": "",
 		"caseStudy": "case-studies/",
-		"examples": ""
+		"examples": "Ebay, Etsy"
 	}
 ]

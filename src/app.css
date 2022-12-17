@@ -47,8 +47,12 @@
 	input {
 		@apply rounded focus:outline-none focus:ring focus:ring-slate-500 focus:ring-opacity-50 focus:shadow;
 	}
-	input {
+	input,
+	textarea {
 		@apply px-3 py-2 rounded border border-slate-400 hover:focus:bg-white;
+	}
+	textarea {
+		@apply resize-none w-full;
 	}
 }
 

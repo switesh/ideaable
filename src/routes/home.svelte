@@ -5,7 +5,7 @@
 <script>
 import Appbar from '$lib/components/Appbar-signed-in.svelte'
 import Footer from '$lib/components/Footer.svelte'
-import myIdeas from '$lib/data/my-ideas.json';
+import myIdeas from '$lib/data/my-ideas.json'
 import X from '$lib/components/icons/x.svelte'
 let title = 'Home'
 </script>
@@ -22,7 +22,7 @@ let title = 'Home'
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">
     {#each myIdeas as { title, description, url, revenueModel }, index}
       <button aria-posinset={index + 1} aria-setsize={myIdeas.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4 text-left" on:click={()=>ideaDetailsDialog.showModal()}>
-        <div class="flex justify-between">
+        <div class="flex justify-between w-full">
           <h2 class="font-semibold">{title}</h2>
         </div>
         <p>{description}</p>
@@ -35,7 +35,7 @@ let title = 'Home'
   </div>
 </section>
 
-<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 max-w-screen-sm">
+<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 max-w-screen-lg h-full">
   <div class="px-6 py-3 flex justify-between bg-slate-50 sticky top-0">
     <h1>Gift a share</h1>
     <div class="flex gap-x-4">

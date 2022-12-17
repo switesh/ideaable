@@ -1,0 +1,58 @@
+[
+	{
+		"title": "Razor and blade",
+		"description": "Sell the base product for free and make money on addons",
+		"image": "",
+		"caseStudy": "case-studies/razor-and-blade",
+		"examples": ""
+	},
+	{
+		"title": "Subscription",
+		"description": "Charge a recurring fee on a periodic basis",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": ""
+	},
+	{
+		"title": "Loyalty",
+		"description": "Offer incentive-based programs",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": ""
+	},
+	{
+		"title": "Freemium",
+		"description": "Offer a limited product for free, and charge for the rest of it",
+		"image": "",
+		"caseStudy": "case-studies/freemium",
+		"examples": ""
+	},
+	{
+		"title": "Micro transactions",
+		"description": "Charge per transaction",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": "Tencent, Visa, Mastercard"
+	},
+	{
+		"title": "Pay per use",
+		"description": "The customer pays on the basis of what he or she effectively consumes",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": ""
+	},
+	{
+		"title": "Cross sell, Up sell",
+		"description": "Generate revenue from additional products and offerings",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": ""
+	},
+	{
+		"title": "Two sided market",
+		"description": "A marketplace for buyers and sellers",
+		"image": "",
+		"caseStudy": "case-studies/",
+		"examples": ""
+	}
+]

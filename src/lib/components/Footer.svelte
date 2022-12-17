@@ -22,10 +22,13 @@
       <nav>
           <ol class="space-y-4 items-center">
             <li>
-              <a href="case-studies" class="btn">Case studies</a>
+              <a href="shop" class="btn">Shop</a>
             </li>
             <li>
               <a href="resources" class="btn">Resources</a>
+            </li>
+              <li>
+              <a href="case-studies" class="btn">Case studies</a>
             </li>
           </ol>
       </nav>

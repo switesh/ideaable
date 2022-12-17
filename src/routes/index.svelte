@@ -21,7 +21,7 @@ let title = 'ideaable : Business idea and model generator'
 <section class="p-8 lg:p-16">
   <a href="business-plan-summary" class="btn base">See what the end result looks like</a>
 </section>
-    
+
 
 <section class="p-8 lg:p-16">
   <p>How we got started (read our case study)</p>

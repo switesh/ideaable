@@ -3,7 +3,7 @@
   <nav>
     <ol class="flex gap-x-8 items-center">
       <li>
-        <a href="ideas" class="btn">Business ideas</a>
+        <a href="business-ideas" class="btn">Business ideas</a>
       </li>
       <li>
         <a href="business-models" class="btn">Business models</a>

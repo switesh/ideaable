@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Business Model Navigator",
+		"description": "Understand the key drivers of business model success",
+		"url": "https://businessmodelnavigator.com/",
+		"logo": "https://businessmodelnavigator.com/img/BMILab-Logo-small.png"
+	},
+	{
+		"title": "Failroy",
+		"description": "The All-In-One Content Site for Startup Founders",
+		"url": "https://www.failory.com/",
+		"logo": "https://global-uploads.webflow.com/5fada95bd7a18db677087e20/5fadac49e1bcf69f59252386_failory-black-icon.svg"
+	},
+	{
+		"title": "Startups.fyi",
+		"description": "Discover Money-Making Startups And Side-Projects",
+		"url": "https://www.startups.fyi/",
+		"logo": "🦄"
+	},
+	{
+		"title": "Microns",
+		"description": "A marketplace to buy the best micro-startups",
+		"url": "https://www.microns.io/",
+		"logo": "🚀"
+	},
+	{
+		"title": "Indie Hackers",
+		"description": "Work Together to Build Profitable Online...",
+		"url": "https://www.indiehackers.com/",
+		"logo": "https://storage.googleapis.com/indie-hackers.appspot.com/branding/logos/indie-hackers-logo__glyph--light.svg"
+	},
+	{
+		"title": "Product Hunt",
+		"description": "The best new products in tech",
+		"url": "https://www.producthunt.com/",
+		"logo": "https://play-lh.googleusercontent.com/Vp1U-vP0P-pDH35HURMpS4h9g6sv2IKyimOUdoDvThOtnLj3ksztSXQbgXs3m0qKCw=w240-h480-rw"
+	},
+	{
+		"title": "Sacra",
+		"description": "The private markets research you need to be a better investor",
+		"url": "https://sacra.com/",
+		"logo": "https://sacra.com/static/svg/sacra-logo-yellow.a7e281d2e937.svg"
+	}
+]

@@ -7,14 +7,14 @@ import Appbar from '$lib/components/Appbar.svelte'
 import Footer from '$lib/components/Footer.svelte'
 import businessIdeas from '$lib/data/business-ideas.json'
 import X from '$lib/components/icons/x.svelte'
-let title = 'Business ideas'
+let title = 'Spark business ideas'
 </script>
 
 <Appbar/>
 
 <section class=" ">
   <div class="py-4 px-16 flex gap-4 justify-between items-center">
-    <h1>Business ideas</h1>
+    <h1>Spark business ideas</h1>
     <div class="flex gap-x-4">
       <input type="search" placeholder="Search business ideas">
       <button class="btn base">Suggest one for me</button>

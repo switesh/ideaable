@@ -24,9 +24,21 @@
 		"examples": "Dropshipping, more examples to come..."
 	},
 	{
-		"title": "Counter intuitive ideas",
-		"description": "Focus on solving problems through psychology (wit, advertising, power of influence) instead of technology or capital",
+		"title": "The opposite of a good idea",
+		"description": "The opposite of a good idea can also be a good idea",
 		"url": "",
-		"examples": "Yet to come..."
+		"examples": "Red bull, more examples to come..."
+	},
+	{
+		"title": "Counter intuitive ideas",
+		"description": "Focus on solving problems through wit, psychology and emotion (perception, illusion, influence) instead of technology or capital",
+		"url": "",
+		"examples": "De Beers, more examples to come..."
+	},
+	{
+		"title": "Solve your own problems",
+		"description": "Solve your own problems and see if there's a market for it",
+		"url": "",
+		"examples": "AWS, Freelancer, Airtasker, more examples to come..."
 	}
 ]

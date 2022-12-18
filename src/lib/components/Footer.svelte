@@ -6,7 +6,7 @@
       <nav>
           <ol class="space-y-4 items-center">
             <li>
-              <a href="business-ideas" class="btn">Business ideas</a>
+              <a href="spark-ideas" class="btn">Spark ideas</a>
             </li>
             <li>
               <a href="business-models" class="btn">Business models</a>
@@ -68,7 +68,7 @@
       </nav>
     </div>
   </div>
-  <div class="mt-8 my-4 justify-center">
+  <div class="mt-8 justify-center">
     <p class="text-xs text-slate-500 text-center">© 2023 ideaable Limited. All rights reserved.</p>
   </div>
 </footer>

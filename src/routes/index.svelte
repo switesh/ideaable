@@ -14,7 +14,7 @@ let title = 'ideaable : Business idea and model generator'
   <div class="h-96 w-full max-w-xl bg-violet-100"></div>
   <div class="p-8 flex flex-col gap-8">
     <p class="uppercase text-6xl text-violet-500 font-black">Overcome <br> mental blocks</p>
-    <a href="sign-up" class="btn base primary w-fit">Start an idea now</a>
+    <a href="sign-up" class="btn base primary w-fit">Spark an idea now</a>
   </div>
 </section>
 <section class="p-8 lg:p-16 flex flex-row-reverse gap-x-16 xl:gap-x-32 justify-center items-center">
@@ -50,7 +50,7 @@ let title = 'ideaable : Business idea and model generator'
   <div class="h-96 w-full max-w-xl bg-violet-100"></div>
   <div class="p-8 flex flex-col gap-8">
     <h1>What can I create with ideaable?</h1>
-    <a href="business-plan-summary" class="btn base primary w-fit">See what the end result looks like</a>
+    <a href="ideaable-demo" class="btn base primary w-fit">See a demo</a>
   </div>
 </section>
 

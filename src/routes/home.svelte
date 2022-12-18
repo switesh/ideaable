@@ -78,7 +78,10 @@ let title = 'Home'
       <section class="p-4 bg-white rounded shadow-sm">
         <p class="category-label text-lg mb-2">Cost structure</p>
         <p><strong>What</strong> is the cost of operating this business (Fixed and Variable, or per unit)?</p>
-      </section>
+        <hr class="my-4 opacity-50">
+        <p><strong>How</strong> many paying customers would you need to breakeven?</p>
+        <p class="text-sm text-slate-500 mt-2">Number of customers * price per unit</p>
+    </section>
     </div>
   </div>
   <hr class="px-6 my-4 opacity-50">

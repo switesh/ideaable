@@ -27,7 +27,7 @@ let title = 'Home'
         </div>
         <p>{description}</p>
         <div class="mt-auto space-y-2">
-          <p class="category-label">Revenue model</p>
+          <p class="category-label">Revenue streams</p>
           <p class="text-sm text-slate-500">{revenueModel}</p>
         </div>
       </button>
@@ -35,12 +35,50 @@ let title = 'Home'
   </div>
 </section>
 
-<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 max-w-screen-lg h-full">
-  <div class="px-6 py-3 flex justify-between bg-slate-50 sticky top-0">
+<dialog id="ideaDetailsDialog" class="absolute top-0 right-0 h-full">
+  <div class="px-6 py-3 flex justify-between bg-white sticky top-0">
     <h1>Gift a share</h1>
     <div class="flex gap-x-4">
       <button class="btn base"><span class="pr-2">🖉</span> Edit</button>
       <button on:click={()=>ideaDetailsDialog.close()}><X/></button>
+    </div>
+  </div>
+  <div class="p-4 flex flex-col gap-4 bg-slate-100">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Business</p>
+        <p><strong>What</strong> is the business about? Describe in less than 3 short sentences.</p>
+      </section>
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Customers</p>
+        <p><strong>Who</strong> are the customers (customer segments)?</p>
+        <p class="text-sm text-slate-500 mt-2">End users use the product or service. Customers PAY for the product or service.</p>
+      </section>
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Revenue streams</p>
+        <p><strong>How</strong> will the business generate money? In how many different ways?</p>
+      </section>
+    </div>
+    <div class="grid grid-cols-1 gap-4 bg-slate-100">
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Proposition</p>
+        <p><strong>What</strong> aspect of this business/product/service makes it valuable to the customer?</p>
+      </section>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 bg-slate-100">
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Product or service</p>
+        <p class="mt-2"><strong>Who</strong> will help you make it (suppliers, partners)?</p>
+        <p class="mt-2"><strong>Who</strong> will help you distribute/sell it (partners, distributors)?</p>
+      </section>
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Channels</p>
+        <p><strong>How</strong> will you find your customers?</p>
+      </section>
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Cost structure</p>
+        <p><strong>What</strong> is the cost of operating this business (Fixed and Variable, or per unit)?</p>
+      </section>
     </div>
   </div>
   <hr class="px-6 my-4 opacity-50">

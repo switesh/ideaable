@@ -27,7 +27,7 @@ let title = 'Business ideas'
           <h2 class="font-semibold">{title}</h2>
         </div>
         <p>{description}</p>
-        <p class="text-sm text-slate-400 mt-auto">{examples}</p>
+        <p class="text-sm text-slate-500 mt-auto">{examples}</p>
       </button>
     {/each}
   </div>

@@ -36,9 +36,21 @@
 		"logo": "https://play-lh.googleusercontent.com/Vp1U-vP0P-pDH35HURMpS4h9g6sv2IKyimOUdoDvThOtnLj3ksztSXQbgXs3m0qKCw=w240-h480-rw"
 	},
 	{
+		"title": "AppSumo",
+		"description": "Discover, buy, and sell the digital products you need to build a business you're passionate about",
+		"url": "https://appsumo.com/",
+		"logo": "https://www.deskera.com/blog/content/images/2020/10/APPSUMO.png"
+	},
+	{
 		"title": "Sacra",
 		"description": "The private markets research you need to be a better investor",
 		"url": "https://sacra.com/",
 		"logo": "https://sacra.com/static/svg/sacra-logo-yellow.a7e281d2e937.svg"
+	},
+	{
+		"title": "NoCodeList",
+		"description": "Browse 300+ no code tools",
+		"url": "https://nocodelist.co/",
+		"logo": "https://thenocodelist.cdn.bubble.io/f1637734727336x299456699522413060/NoCodeList_Logo.svg"
 	}
 ]

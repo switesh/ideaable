@@ -1,5 +1,5 @@
 <div class="px-4 py-2 md:px-8 md:py-4 lg:px-16 lg:py-8 flex justify-between items-center">
-  <p class="text-2xl font-bold text-violet-500"><a href="/" class="btn">ideaable</a></p>
+  <p class="text-4xl font-bold text-violet-500"><a href="/" class="btn">ideaable</a></p>
   <nav>
     <ol class="flex gap-x-8 items-center">
       <li>

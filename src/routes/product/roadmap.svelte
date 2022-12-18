@@ -21,7 +21,9 @@ let title = 'Product roadmap'
 	<section class="p-8 bg-white">
 		<h2>Customers</h2>
 		<ul class="p-4 list-decimal">
-			<li>Service providers: legal documents (company setup, privacy policies)</li>
+			<li>Legal service providers: legal documents (company setup, privacy policies)</li>
+			<li>Supporting product/service providers: Referral links (Bubble, Atlassian, etc)</li>
+			<li>Youtubers and Influencers: Non-intrusive ad placement or affiliate links</li>
 			<li>Yet to think or more customers...</li>
 		</ul>
 		<h2>End users</h2>

@@ -11,7 +11,7 @@ let title = 'Business plan summary'
 <Appbar/>
 
 <div class="py-4 px-16 flex gap-4 justify-between items-center">
-  <h1>Burgers exchange</h1>
+  <h1>ideaable platform</h1>
   <div class="flex gap-x-4">
     <button class="btn base">Edit</button>
   </div>
@@ -54,6 +54,12 @@ let title = 'Business plan summary'
       <hr class="my-4 opacity-50">
       <p><strong>How</strong> many paying customers would you need to breakeven?</p>
       <p class="text-sm text-slate-500 mt-2">Number of customers * price per unit</p>
+    </section>
+  </div>
+  <div class="grid grid-cols-1 gap-4 bg-slate-100">
+    <section class="p-4 bg-white rounded shadow-sm">
+      <p class="category-label text-lg mb-2">Competitors</p>
+      <p><strong>Who</strong> are the competitors?</p>
     </section>
   </div>
 </div>

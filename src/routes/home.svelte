@@ -83,6 +83,12 @@ let title = 'Home'
         <p class="text-sm text-slate-500 mt-2">Number of customers * price per unit</p>
     </section>
     </div>
+    <div class="grid grid-cols-1 gap-4 bg-slate-100">
+      <section class="p-4 bg-white rounded shadow-sm">
+        <p class="category-label text-lg mb-2">Competitors</p>
+        <p><strong>Who</strong> are the competitors?</p>
+      </section>
+    </div>
   </div>
   <hr class="px-6 my-4 opacity-50">
   <section class="px-6 py-3">

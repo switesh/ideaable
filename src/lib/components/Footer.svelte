@@ -12,7 +12,10 @@
               <a href="business-models" class="btn">Business models</a>
             </li>
             <li>
-              <a href="" class="btn">Product-market fit</a>
+              <a href="ideaable-demo" class="btn">Demo</a>
+            </li>
+            <li>
+              <a href="" class="btn"><s>Product-market fit</s></a>
             </li>
           </ol>
       </nav>
@@ -30,6 +33,9 @@
             <li>
               <a href="case-studies" class="btn">Case studies</a>
             </li>
+            <li>
+              <a href="https://fs.blog/" target="_blank" class="btn">Mental models</a>
+            </li>
           </ol>
       </nav>
     </div>
@@ -41,7 +47,7 @@
               <a href="about-us" class="btn">About us</a>
             </li>
             <li>
-              <a href="" class="btn">FAQ</a>
+              <a href="faq" class="btn">FAQ</a>
             </li>
             <li>
               <a href="" class="btn">Contact us</a>
@@ -62,8 +68,13 @@
             <li>
               <a href="" class="btn">Terms of service</a>
             </li>
-            <li><a href="roadmap" class="opacity-50">Product roadmap</a></li>
-            <li><a href="styleguide" class="opacity-50">Styleguide</a></li>
+          </ol>
+      </nav>
+      <p class="category-label mb-4 mt-8">Internal stuff</p>
+      <nav>
+          <ol class="space-y-4 items-center">
+            <li><a href="product/roadmap" class="btn">Product roadmap</a></li>
+            <li><a href="styleguide" class="btn">Styleguide</a></li>
           </ol>
       </nav>
     </div>

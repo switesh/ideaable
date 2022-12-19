@@ -12,6 +12,12 @@
 		"revenueModel": "Subscription, Merchandise - card deck and board game, Addons (Atlassian Jira, Culture Amp), Ads"
 	},
 	{
+		"title": "Aggregator of Affiliate Programs",
+		"description": "Like Groupon, for Affiliate Programs.",
+		"url": "",
+		"revenueModel": "Commission"
+	},
+	{
 		"title": "Annual report insights",
 		"description": "AI generated insights from annual reports of listed companies",
 		"url": "",

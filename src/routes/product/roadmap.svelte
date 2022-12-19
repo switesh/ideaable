@@ -39,6 +39,12 @@ let title = 'Product roadmap'
 			<li>Supporting products: Bubble, Atlassian etc</li>
 			<li>Yet to think or more channels...</li>
 		</ul>
+		<h2>Competitors</h2>
+		<ul class="p-4 list-decimal">
+			<li><a href="https://businessmodelnavigator.com/" target="_blank">Business Model Navigator</a></li>
+			<li><a href="https://www.softwareideas.io/" target="_blank">Software ideas</a></li>
+			<li>Yet to explore more competitors...</li>
+		</ul>
 	</section>
 	<section class="p-8 bg-white">
 		<h2>Revenue streams</h2>

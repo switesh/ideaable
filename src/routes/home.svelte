@@ -20,7 +20,7 @@ let title = 'Home'
     </div>
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 bg-slate-100 p-16 mt-8">
-    {#each myIdeas as { title, description, url, revenueModel }, index}
+    {#each myIdeas as { title, description, url, revenueModel, tags }, index}
       <button aria-posinset={index + 1} aria-setsize={myIdeas.length} class="p-8 bg-white shadow-sm rounded flex flex-col gap-4 text-left" on:click={()=>ideaDetailsDialog.showModal()}>
         <div class="flex justify-between w-full">
           <h2 class="font-semibold">{title}</h2>
@@ -29,6 +29,9 @@ let title = 'Home'
         <div class="mt-auto space-y-2">
           <p class="category-label">Revenue streams</p>
           <p class="text-sm text-slate-500">{revenueModel}</p>
+        </div>
+        <div class="flex flex-wrap gap-x-4 gap-y-2">
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">{tags}</p>
         </div>
       </button>
     {/each}
@@ -48,6 +51,11 @@ let title = 'Home'
       <section class="p-4 bg-white rounded shadow-sm">
         <p class="category-label text-lg mb-2">Business</p>
         <p><strong>What</strong> is the business about? Describe in less than 3 short sentences.</p>
+        <hr class="my-2 opacity-50">
+        <div class="flex flex-wrap gap-x-4 gap-y-2">
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Solve own problems</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Just 1% of a very large market</p>
+        </div>
       </section>
       <section class="p-4 bg-white rounded shadow-sm">
         <p class="category-label text-lg mb-2">Customers</p>
@@ -57,6 +65,12 @@ let title = 'Home'
       <section class="p-4 bg-white rounded shadow-sm">
         <p class="category-label text-lg mb-2">Revenue streams</p>
         <p><strong>How</strong> will the business generate money? In how many different ways?</p>
+        <hr class="my-2 opacity-50">
+        <div class="flex flex-wrap gap-x-4 gap-y-2">
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Freemium</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Micro transactions</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Affiliate commissions</p>
+        </div>
       </section>
     </div>
     <div class="grid grid-cols-1 gap-4 bg-slate-100">

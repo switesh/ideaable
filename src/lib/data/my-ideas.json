@@ -3,36 +3,42 @@
 		"title": "Gift a share",
 		"description": "A platform for Guardians (parents, godparents, uncles, aunts) to gift shares to Children (sons, daughters, nephews, nieces, godchildren)",
 		"url": "",
-		"revenueModel": "Spread on brokerage fees, Ancillary products, Ads"
+		"revenueModel": "Spread on brokerage fees, Ancillary products, Ads",
+		"tags": "Just 1% of a large market"
 	},
 	{
 		"title": "ideaable",
 		"description": "A platform for Entrepreneurs to ideate business and revenue models",
 		"url": "",
-		"revenueModel": "Subscription, Merchandise - card deck and board game, Addons (Atlassian Jira, Culture Amp), Ads"
+		"revenueModel": "Subscription, Merchandise - card deck and board game, Addons (Atlassian Jira, Culture Amp), Ads",
+		"tags": "Solve your own problems"
 	},
 	{
 		"title": "Aggregator of Affiliate Programs",
 		"description": "Like Groupon or Shopback, for Affiliate Programs",
 		"url": "",
-		"revenueModel": "Commission"
+		"revenueModel": "Commission",
+		"tags": "Steal and re-sell"
 	},
 	{
 		"title": "Annual report insights",
 		"description": "AI generated insights from annual reports of listed companies",
 		"url": "",
-		"revenueModel": "Subscription, Affiliates"
+		"revenueModel": "Subscription, Affiliates",
+		"tags": "Solve your own problems"
 	},
 	{
 		"title": "Burgers on stock exchange",
 		"description": "Buy and sell burgers on an exchange like stocks and futures",
 		"url": "",
-		"revenueModel": "Listing fees, Ads"
+		"revenueModel": "Listing fees, Ads",
+		"tags": "Just 1% of a large market"
 	},
 	{
 		"title": "Tennis hitting partners",
 		"description": "Connect tennis hitting partners locally",
 		"url": "",
-		"revenueModel": "Ads from clubs and local tennis shops"
+		"revenueModel": "Ads from clubs and local tennis shops",
+		"tags": "Solve your own problems"
 	}
 ]

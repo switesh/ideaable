@@ -9,13 +9,13 @@
               <a href="spark-ideas" class="btn">Spark ideas</a>
             </li>
             <li>
-              <a href="business-models" class="btn">Business models</a>
+              <a href="revenue-models" class="btn">Revenue models</a>
             </li>
             <li>
               <a href="ideaable-demo" class="btn">Demo</a>
             </li>
             <li>
-              <a href="#" class="btn"><s>Product-market fit</s></a>
+              <a href="" class="btn"><s>Product-market fit</s></a>
             </li>
           </ol>
       </nav>
@@ -50,7 +50,7 @@
               <a href="faq" class="btn">FAQ</a>
             </li>
             <li>
-              <a href="#" class="btn">Contact us</a>
+              <a href="" class="btn">Contact us</a>
             </li>
             <li>
               <a href="pricing" class="btn">Pricing</a>
@@ -63,10 +63,10 @@
       <nav>
           <ol class="space-y-4 items-center">
             <li>
-              <a href="#" class="btn">Privacy policy</a>
+              <a href="" class="btn">Privacy policy</a>
             </li>
             <li>
-              <a href="#" class="btn">Terms of service</a>
+              <a href="" class="btn">Terms of service</a>
             </li>
           </ol>
       </nav>

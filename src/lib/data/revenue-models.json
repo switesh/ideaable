@@ -35,7 +35,7 @@
 		"examples": "Tencent, Visa, Mastercard"
 	},
 	{
-		"title": "Pay per use",
+		"title": "Pay per use/quota",
 		"description": "The customer pays on the basis of what he or she effectively consumes",
 		"image": "",
 		"caseStudy": "case-studies/",

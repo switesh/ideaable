@@ -21,6 +21,11 @@ let title = 'Business plan summary'
     <section class="p-4 bg-white rounded shadow-sm">
       <p class="category-label text-lg mb-2">Business</p>
       <p><strong>What</strong> is the business about? Describe in less than 3 short sentences.</p>
+      <hr class="my-2 opacity-50">
+        <div class="flex flex-wrap gap-x-4 gap-y-2">
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Solve own problems</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Just 1% of a very large market</p>
+        </div>
     </section>
     <section class="p-4 bg-white rounded shadow-sm">
       <p class="category-label text-lg mb-2">Customers</p>
@@ -30,6 +35,12 @@ let title = 'Business plan summary'
     <section class="p-4 bg-white rounded shadow-sm">
       <p class="category-label text-lg mb-2">Revenue streams</p>
       <p><strong>How</strong> will the business generate money? In how many different ways?</p>
+      <hr class="my-2 opacity-50">
+        <div class="flex flex-wrap gap-x-4 gap-y-2">
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Freemium</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Micro transactions</p>
+          <p class="px-1 rounded text-xs text-indigo-500 bg-indigo-50">Affiliate commissions</p>
+        </div>
     </section>
   </div>
   <div class="grid grid-cols-1 gap-4 bg-slate-100">

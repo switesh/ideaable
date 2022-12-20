@@ -9,6 +9,9 @@
               <a href="spark-ideas" class="btn">Spark ideas</a>
             </li>
             <li>
+              <a href="business-models" class="btn">Business models</a>
+            </li>
+            <li>
               <a href="revenue-models" class="btn">Revenue models</a>
             </li>
             <li>

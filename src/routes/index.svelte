@@ -14,6 +14,7 @@ let title = 'ideaable : Business idea and model generator'
   <div class="h-96 w-full max-w-xl bg-violet-100"></div>
   <div class="p-8 flex flex-col gap-8">
     <p class="uppercase text-6xl text-violet-500 font-black">Overcome <br> mental blocks</p>
+    <p class="text-violet-500">Build a <strong>Business</strong>, not just an App.</p>
     <a href="sign-up" class="btn base primary w-fit">Spark an idea now</a>
   </div>
 </section>
